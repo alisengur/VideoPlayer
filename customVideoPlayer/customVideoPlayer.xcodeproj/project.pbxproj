@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2216BFAF24702B160074D9FE /* VideoPlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2216BFAE24702B160074D9FE /* VideoPlayerViewController.swift */; };
 		228302FA246486C4008FD914 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 228302F9246486C4008FD914 /* AppDelegate.swift */; };
 		228302FC246486C4008FD914 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 228302FB246486C4008FD914 /* SceneDelegate.swift */; };
 		22830301246486C4008FD914 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 228302FF246486C4008FD914 /* Main.storyboard */; };
@@ -22,6 +23,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2216BFAE24702B160074D9FE /* VideoPlayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPlayerViewController.swift; sourceTree = "<group>"; };
 		228302F6246486C4008FD914 /* customVideoPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = customVideoPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		228302F9246486C4008FD914 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		228302FB246486C4008FD914 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -83,6 +85,7 @@
 				2283030D2464874E008FD914 /* MainViewController.swift */,
 				2283030F2464A4E2008FD914 /* MainCollectionViewCell.swift */,
 				228303112464A7D3008FD914 /* Video.swift */,
+				2216BFAE24702B160074D9FE /* VideoPlayerViewController.swift */,
 			);
 			path = customVideoPlayer;
 			sourceTree = "<group>";
@@ -235,6 +238,7 @@
 				228302FA246486C4008FD914 /* AppDelegate.swift in Sources */,
 				228302FC246486C4008FD914 /* SceneDelegate.swift in Sources */,
 				2283030E2464874E008FD914 /* MainViewController.swift in Sources */,
+				2216BFAF24702B160074D9FE /* VideoPlayerViewController.swift in Sources */,
 				228303102464A4E2008FD914 /* MainCollectionViewCell.swift in Sources */,
 				228303122464A7D3008FD914 /* Video.swift in Sources */,
 			);

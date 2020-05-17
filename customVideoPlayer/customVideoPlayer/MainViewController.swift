@@ -12,7 +12,10 @@ import Kingfisher
 class MainViewController: UIViewController {
 
     @IBOutlet weak var collectionView: UICollectionView!
-    
+
+
+
+    // Created instance from Video struct
     var data = Video() {
         didSet {
             if self.collectionView != nil {
@@ -30,8 +33,11 @@ class MainViewController: UIViewController {
         setCollectionView()
     }
     
+    
+    
+    
     fileprivate func setCollectionView(){
-        let width = (view.frame.size.width - 10) / 2
+        let width = (view.frame.size.width - 30) / 2
         let layout = collectionView.collectionViewLayout as! UICollectionViewFlowLayout ///  UICollectionViewFlowLayout have an itemSize
         layout.itemSize = CGSize(width: width, height: width)
 
@@ -55,12 +61,26 @@ extension MainViewController: UICollectionViewDataSource, UICollectionViewDelega
         return cell
     }
     
+    
 }
 
 
 extension MainViewController: MainCollectionViewCellDelegate {
     func didTapPlayButton(index: Int) {
-        print("tapped")
+        let selectedVideo = data.videos[index]
+        let mainStoryBoard = UIStoryboard(name: "Main", bundle: Bundle.main)
+        if let vc = mainStoryBoard.instantiateViewController(identifier: "VideoPlayerViewController") as? VideoPlayerViewController {
+            vc.video = selectedVideo
+            var newItemIndex = index
+            for _ in 0..<self.data.videos.count {
+                if newItemIndex >= data.videos.count {
+                    newItemIndex = 0
+                }
+                vc.videos.append(self.data.videos[newItemIndex])
+                newItemIndex += 1
+            }
+            self.navigationController?.pushViewController(vc, animated: true)
+        }
     }
 }
 
