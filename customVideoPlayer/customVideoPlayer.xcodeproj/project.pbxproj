@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		2216BFAF24702B160074D9FE /* VideoPlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2216BFAE24702B160074D9FE /* VideoPlayerViewController.swift */; };
+		2216BFB12470C22F0074D9FE /* video-player-preview.mov in Resources */ = {isa = PBXBuildFile; fileRef = 2216BFB02470C22E0074D9FE /* video-player-preview.mov */; };
 		228302FA246486C4008FD914 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 228302F9246486C4008FD914 /* AppDelegate.swift */; };
 		228302FC246486C4008FD914 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 228302FB246486C4008FD914 /* SceneDelegate.swift */; };
 		22830301246486C4008FD914 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 228302FF246486C4008FD914 /* Main.storyboard */; };
@@ -24,6 +25,7 @@
 
 /* Begin PBXFileReference section */
 		2216BFAE24702B160074D9FE /* VideoPlayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPlayerViewController.swift; sourceTree = "<group>"; };
+		2216BFB02470C22E0074D9FE /* video-player-preview.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = "video-player-preview.mov"; sourceTree = "<group>"; };
 		228302F6246486C4008FD914 /* customVideoPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = customVideoPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		228302F9246486C4008FD914 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		228302FB246486C4008FD914 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -96,6 +98,7 @@
 				228303142464A83F008FD914 /* mask.mp4 */,
 				228303132464A83E008FD914 /* stayathome.mp4 */,
 				228303152464A840008FD914 /* hand-washing.mp4 */,
+				2216BFB02470C22E0074D9FE /* video-player-preview.mov */,
 			);
 			path = "Local Videos";
 			sourceTree = "<group>";
@@ -179,6 +182,7 @@
 			files = (
 				228303192464A85F008FD914 /* hand-washing.mp4 in Resources */,
 				22830306246486CD008FD914 /* LaunchScreen.storyboard in Resources */,
+				2216BFB12470C22F0074D9FE /* video-player-preview.mov in Resources */,
 				22830303246486CD008FD914 /* Assets.xcassets in Resources */,
 				22830301246486C4008FD914 /* Main.storyboard in Resources */,
 				228303172464A859008FD914 /* mask.mp4 in Resources */,
